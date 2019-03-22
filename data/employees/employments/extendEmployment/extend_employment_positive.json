@@ -1,0 +1,113 @@
+[
+  {
+    "company": {
+      "country": "CZ",
+      "part1": {
+        "name": "Extend Employment",
+        "shortened_name": "EE",
+        "identification_code": "03436586",
+        "address_street_and_number": "Dlouhá 48",
+        "address_city": "Praha",
+        "address_zip": "17000",
+        "registered_when": "1.7.2017",
+        "court_name": "Městský soud v Praze",
+        "court_case": "C 292921",
+        "default_wages_item_code": "941",
+        "wages_constant_symbol": "0138",
+        "wages_variable_symbol_strategy": "MMRRRR"
+      },
+      "part2": {
+        "balancing_period": "50",
+        "balancing_period_units": "weeks",
+        "balancing_period_starts_when": "01.01.2019",
+        "benefits": []
+      },
+      "part3": {
+
+      },
+      "part4":  [
+        {
+          "name": "Utvar 1",
+          "new_cost_center_name": "Nazev stredisko 1",
+          "new_cost_center_code": "CZ981",
+          "same_address_as_parent": "1"
+        }
+      ],
+      "part5": [
+        {
+          "name": "pozice 1",
+          "localized_names_for_contract_cs": "pozice 1",
+          "organization_units_ids": [],
+          "managing_position": "1",
+          "medical_examination_work_category": "1. kategorie",
+          "job_group": "1. skupina prací",
+          "shift_type": "Jednosměnný",
+          "working_hours_type": "even",
+          "default_trial_period_months": "Sjednáno – 2 měsíce",
+          "job_classification_id": "104",
+          "roles": ["ROLE_SUPERIOR"],
+          "superior_of_position_ids": ["tato nová pozice"]
+        }
+      ]
+    },
+    "employee": {
+      "name": "Michal",
+      "surname": "Strnad",
+      "phone": "605456321",
+      "accessible_for_unit_ids": [],
+      "default_approver_id": "xxx"
+    },
+    "inquiry": {
+      "part1": {
+        "birth_number": "920501/9615",
+        "residence_street_and_house_number": "Dlouhá 475",
+        "residence_city": "Praha",
+        "residence_zip": "17000"
+      },
+      "part2": {
+        "birth_place": "Liberec"
+      },
+      "part3": {
+        "paycheck_password": "1234",
+        "health_insurance_company_code": "201",
+        "having_some_pension": 0,
+        "having_handicap_or_disability_card": 0,
+        "having_wages_deductions": 0,
+        "having_social_insurance_abroad": 0
+      }
+    },
+    "employment": {
+      "company": "Extend Employment",
+      "part1": {
+        "type": "main_employment",
+        "start_date": "01.02.2019",
+        "boarding_date": "04.02.2019",
+        "organization_unit_id": "Utvar 1",
+        "cost_center_id": "CZ981 - Nazev stredisko 1",
+        "work_position_id": "pozice 1",
+        "superior_of_unit_ids": [],
+        "immediate_superior_user_id": "xxx",
+        "current_approver_id": "xxx"
+      },
+      "part2": {
+        "duration_months": "Doba určitá – 1 rok",
+        "trial_period_months": "Sjednáno – 2 měsíce",
+        "shift_type": "Dvousměnný",
+        "working_hours_per_week": "40",
+        "working_hours_type": "even",
+        "basic_salary": "20000",
+        "benefits": []
+      },
+      "part3": {
+
+      },
+      "part4": {
+
+      }
+    },
+    "extend_employment": {
+      "duration_extension_by_months": "Prodloužit do konkrétního data",
+      "duration_extension_to_date": "01.05.2020"
+    }
+  }
+]

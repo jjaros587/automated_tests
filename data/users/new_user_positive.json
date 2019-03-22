@@ -1,0 +1,10 @@
+[
+  {
+    "user": {
+      "name": "Zdeněk",
+      "surname": "Svěrák",
+      "phone": "605456321",
+      "role": ["ROLE_HR_ADMIN"]
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "company": {
+      "country": "CZ",
+      "part1": {
+        "name": "Dlouhy nazev",
+        "shortened_name": "Abrev.",
+        "identification_code": "01951122",
+        "address_street_and_number": "Dlouhá 48",
+        "address_city": "Praha",
+        "address_zip": "17000",
+        "registered_when": "1.7.2017",
+        "court_name": "Městský soud v Praze",
+        "court_case": "C 292921",
+        "default_wages_item_code": "941",
+        "wages_constant_symbol": "0138",
+        "wages_variable_symbol_strategy": "MMRRRR"
+      },
+      "part2": {
+        "balancing_period": "50",
+        "balancing_period_units": "weeks",
+        "balancing_period_starts_when": "01.01.2019",
+        "benefits": [
+          {
+            "name": "bonus 1",
+            "localized_name_cs": "bonus 1",
+            "localized_name_en": "bonus 1",
+            "wage_item_code": "985",
+            "_comment": "exact-amount/hourly-bonus/percentual-bonus",
+            "reward_type": "exact-amount",
+            "amount": "2000",
+            "for_all_organization_units": "1",
+            "for_all_work_positions": "1"
+          },
+          {
+            "name": "bonus 2",
+            "localized_name_cs": "bonus 2",
+            "localized_name_en": "bonus 2",
+            "wage_item_code": "985",
+            "_comment": "exact-amount/hourly-bonus/percentual-bonus",
+            "reward_type": "hourly-bonus",
+            "amount": "50",
+            "for_all_organization_units": "1",
+            "for_all_work_positions": "1"
+          },
+          {
+            "name": "bonus 3",
+            "localized_name_cs": "bonus 3",
+            "localized_name_en": "bonus 3",
+            "wage_item_code": "985",
+            "_comment": "exact-amount/hourly-bonus/percentual-bonus",
+            "reward_type": "percentual-bonus",
+            "amount": "20",
+            "for_all_organization_units": "1",
+            "for_all_work_positions": "1"
+          }
+        ]
+      },
+      "part3": {
+
+      },
+      "part4":  [
+        {
+          "name": "Utvar 1",
+          "new_cost_center_name": "Nazev stredisko 1",
+          "new_cost_center_code": "CZ981",
+          "same_address_as_parent": "1"
+        }
+      ],
+      "part5": [
+        {
+          "name": "pozice 1",
+          "localized_names_for_contract_cs": "pozice 1",
+          "organization_units_ids": [],
+          "managing_position": "1",
+          "medical_examination_work_category": "1. kategorie",
+          "job_group": "1. skupina prací",
+          "shift_type": "Jednosměnný",
+          "working_hours_type": "even",
+          "default_trial_period_months": "Sjednáno – 2 měsíce",
+          "job_classification_id": "104",
+          "roles": ["ROLE_SUPERIOR"],
+          "superior_of_position_ids": ["tato nová pozice"]
+        }
+      ]
+    }
+  }
+]

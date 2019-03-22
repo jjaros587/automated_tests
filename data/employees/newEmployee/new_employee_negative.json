@@ -1,0 +1,32 @@
+[
+  {
+    "employee": {
+      "name": "",
+      "surname": "Novák",
+      "phone": "605456321",
+      "accessible_for_unit_ids": [],
+      "default_approver_id": "xxx"
+    },
+    "error": "user_form_name_error"
+  },
+    {
+    "employee": {
+      "name": "Karel",
+      "surname": "",
+      "phone": "605456321",
+      "accessible_for_unit_ids": [],
+      "default_approver_id": "xxx"
+    },
+    "error": "user_form_surname_error"
+  },
+  {
+    "employee": {
+      "name": "Karel",
+      "surname": "Novák",
+      "phone": "605456321",
+      "accessible_for_unit_ids": [],
+      "default_approver_id": ""
+    },
+    "error": "user_form_default_approver_id_error"
+  }
+]

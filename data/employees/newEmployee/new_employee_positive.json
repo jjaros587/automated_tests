@@ -1,0 +1,11 @@
+[
+  {
+    "employee": {
+      "name": "Karel",
+      "surname": "Novák",
+      "phone": "605456321",
+      "accessible_for_unit_ids": [],
+      "default_approver_id": "xxx"
+    }
+  }
+]

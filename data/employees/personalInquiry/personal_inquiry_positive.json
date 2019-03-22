@@ -1,0 +1,30 @@
+[
+  {
+    "employee": {
+      "name": "Karel",
+      "surname": "Duha",
+      "phone": "605456321",
+      "accessible_for_unit_ids": [],
+      "default_approver_id": "xxx"
+    },
+    "inquiry": {
+      "part1": {
+        "birth_number": "911013/6112",
+        "residence_street_and_house_number": "Dlouhá 475",
+        "residence_city": "Praha",
+        "residence_zip": "17000"
+      },
+      "part2": {
+        "birth_place": "Liberec"
+      },
+      "part3": {
+        "paycheck_password": "1234",
+        "health_insurance_company_code": "201",
+        "having_some_pension": 0,
+        "having_handicap_or_disability_card": 0,
+        "having_wages_deductions": 0,
+        "having_social_insurance_abroad": 0
+      }
+    }
+  }
+]

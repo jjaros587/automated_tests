@@ -1,0 +1,34 @@
+[
+  {
+    "company": {
+      "country": "CZ",
+      "part1": {
+        "shortened_name": "blabla",
+        "identification_code": "06099858",
+        "default_wages_item_code": "941",
+        "wages_constant_symbol": "0138",
+        "wages_variable_symbol_strategy": "MMRRRR"
+      },
+      "part2": {
+        "balancing_period": "50",
+        "balancing_period_units": "weeks",
+        "balancing_period_starts_when": "01.01.2019",
+        "benefits": []
+      },
+      "part3": {
+
+      },
+      "part4": [
+        {
+          "name": "Nazev urvar",
+          "new_cost_center_name": "Nazev stredisko",
+          "new_cost_center_code": "CZ985",
+          "same_address_as_parent": "1"
+        }
+      ],
+      "part5": {
+
+      }
+    }
+  }
+]

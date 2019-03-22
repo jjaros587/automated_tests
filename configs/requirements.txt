@@ -1,0 +1,4 @@
+webdriver_manager
+selenium
+ddt
+html-testRunner
